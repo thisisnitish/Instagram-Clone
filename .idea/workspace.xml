@@ -11,8 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a21b0cdb-7a5a-46bb-9b68-551d887619c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/camera_item.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/my_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/nitish/example/instagram/UsersPosts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/person.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_users_posts.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -23,11 +24,16 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/nitish/example/instagram/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/nitish/example/instagram/LoginActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/nitish/example/instagram/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/nitish/example/instagram/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/nitish/example/instagram/SharePictureTab.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/nitish/example/instagram/SharePictureTab.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/nitish/example/instagram/SocialMediaActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/nitish/example/instagram/SocialMediaActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/nitish/example/instagram/UsersTab.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/nitish/example/instagram/UsersTab.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +87,9 @@
       <recent name="nitish.example.instagram" />
     </key>
     <key name="android.template.1715006403">
+      <recent name="nitish.example.instagram" />
+    </key>
+    <key name="android.template.-725041541">
       <recent name="nitish.example.instagram" />
     </key>
     <key name="android.template.1515153455">
@@ -179,20 +188,28 @@
       <option name="project" value="LOCAL" />
       <updated>1591964988431</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Implemented Social Media Activity and Log out Funcionality and minor bug fixes">
+      <created>1592071275943</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1592071275943</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Tab Layout set up" />
     <MESSAGE value="Added Users Tab and Profile Tab" />
     <MESSAGE value="Implemented Share Picture Tab and its functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented Share Picture Tab and its functionality" />
+    <MESSAGE value="Implemented Social Media Activity and Log out Funcionality and minor bug fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented Social Media Activity and Log out Funcionality and minor bug fixes" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1591961106412">
+    <state x="533" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1592076038861">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="533" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1591961106412" />
+    <state x="533" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1592076038861" />
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591725332073">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -201,34 +218,34 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="308" y="212" key="AndroidCreateResourceFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1592067458265" />
-    <state x="332" y="52" key="CommitChangelistDialog2" timestamp="1591964988024">
+    <state x="332" y="52" key="CommitChangelistDialog2" timestamp="1592071275559">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="332" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1591964988024" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1591898374281">
+    <state x="332" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1592071275559" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1592075845922">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591898374281" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1591898374281">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592075845922" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1592075845921">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591898374281" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1591898374280">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592075845921" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1592075845920">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591898374280" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1591898374281">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592075845920" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1592075845921">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591898374281" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592075845921" />
     <state x="221" y="89" key="SettingsEditor" timestamp="1591902656181">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1591902656181" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1591964990311">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1592071278308">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1591964990311" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1592071278308" />
     <state x="497" y="235" key="chooseDestDirectoryDialog" timestamp="1591959541129">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
