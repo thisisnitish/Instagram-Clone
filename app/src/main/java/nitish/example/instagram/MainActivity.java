@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     appUser.setPassword(edtSignUpPassword.getText().toString());
 
                     final ProgressDialog progressDialog = new ProgressDialog(MainActivity.this);
-                    progressDialog.setMessage("Signin up " + edtSignUpUsername.getText().toString());
+                    progressDialog.setMessage("Signing up " + edtSignUpUsername.getText().toString());
                     progressDialog.show();
 
                     appUser.signUpInBackground(new SignUpCallback() {
@@ -143,6 +143,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         Intent intent = new Intent(MainActivity.this, SocialMediaActivity.class);
         startActivity(intent);
+        finish();     //logging out the user
+
 
     }
 
